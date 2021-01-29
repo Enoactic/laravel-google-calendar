@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelGoogleDrive;
+namespace LaravelGoogleCalendar;
 
 use Exception;
 use Google_Client;
@@ -61,5 +61,5 @@ class Calendar
         $this->client = $client;
     }
 
-    
+
 }
